@@ -1,0 +1,27 @@
+{
+  "name": "huanteng-skill",
+  "description": "",
+  "main": "index.html",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/haoHu/huantengskill",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies" : {
+    "jquery" : "latests",
+    "lodash" : "latests",
+    "angular" : "1.5.3",
+    "angular-material" : "latests"
+  }
+}
