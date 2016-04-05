@@ -1,0 +1,17 @@
+{
+  "name": "huanteng-demo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "behaviorify": "^1.0.0",
+    "bootstrap": "^3.3.6",
+    "jibo": "^2.0.0",
+    "jquery": "^2.2.2",
+    "request": "^2.69.0"
+  },
+  "license": "UNLICENSED"
+}

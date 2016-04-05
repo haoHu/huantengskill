@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Huanteng Demo</title>
+        <link rel="stylesheet" type="text/css" href="styles/main.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <script src="node_modules/jquery/dist/jquery.js" charset="utf-8"></script>
+        <script type="application/javascript">
+        if (typeof module === 'object' && typeof module.exports !== 'undefined') {
+          window.$ = window.jQuery = module.exports;
+        }
+        </script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <div id="eye"></div>
+        <script>
+            require('behaviorify/register-es6');
+            require('./src');
+        </script>
+    </body>
+</html>

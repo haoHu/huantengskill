@@ -1,0 +1,13 @@
+TopRule = $* (
+    ($open{action='open'} $app{app=app._name}) |
+    ($close{action='close'} $app{app=app._name}) |
+    ($turnon{action='turnon'} $zone{zone=zone._name}) |
+    ($turnoff{action='turnoff'} $zone{zone=zone._name})
+) $*;
+
+app @= (+$w){_name=_parsed};
+zone @= (+$w){_name=_parsed};
+open = open | start | enter;
+close = close | exit | quit;
+turnon = (turnon) | (light up);
+turnoff = (turnoff) | (turn off);
